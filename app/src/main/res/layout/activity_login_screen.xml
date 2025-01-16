@@ -6,14 +6,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
+    android:layout_marginTop="60dp"
+
     tools:context=".LoginScreen">
+
+
+    <ImageView
+        android:id="@+id/snowflakeImage"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/snowflake"
+        app:layout_constraintBottom_toTopOf="@id/shredText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="16dp" />
 
     <TextView
         android:id="@+id/shredText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
-        android:text="Shred"
+        android:text="SHRED"
         android:textColor="@color/blue"
         android:textSize="24dp"
         app:layout_constraintEnd_toEndOf="parent"

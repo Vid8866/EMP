@@ -25,7 +25,7 @@
             android:name=".RegistrationScreen"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".RidesScreen"
             android:exported="false" >
 
         </activity>
